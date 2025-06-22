@@ -93,6 +93,17 @@
     mode: SensorCords
 
 - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSecretary
+  name: secretary's jumpsuit
+  description: A suit worn by secretary personnel. Smells of burnt coffee.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/admin_assistant.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/admin_assistant.rsi
+
+- type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCaptain
   name: captain's jumpsuit
@@ -278,6 +289,17 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitChemShirt
+  name: formal chemistry suit
+  description: There's still some odd stains on this suit. Hm.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVirology
   name: virology jumpsuit
   description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
@@ -420,6 +442,17 @@
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHoPFormal
+  name: head of personnel's formal suit
+  description: A well-made suit with gold buttons and a red trim. Might as well look sharp when botany goes up in flames.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hopformal.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hopformal.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -745,6 +778,17 @@
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRoboNeuroticist
+  name: robo-neuroticist's jumpsuit
+  description: A suit fit with dozens of cybernetic gadgets.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/roboneuroticistpurple.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/roboneuroticistpurple.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -1965,3 +2009,69 @@
     sprite: Clothing/Uniforms/Jumpsuit/black_flannel_khakis.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/black_flannel_khakis.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformLittleGuyOveralls
+  name: little guy overalls
+  description: I'm just a little guy!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi # DeltaV - Little-Guy-Ops
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/littleguy_overalls.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformCybersunHazard
+  name: cybersun hazard suit
+  description: This high-visibility jumpsuit prevents you from getting run over, yet keeps you dark enough to stay unnoticed!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersunhazard.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersunhazard.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformCybersunCasual
+  name: cybersun casual jumpsuit
+  description: With all the non-descript gizmos they shoved in this thing, are you sure it's even safe to put on?
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersuncasual.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersuncasual.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformCybersunRND
+  name: cybersun research turtleneck
+  description: It's another Turtleneck. What'd you expect?
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersunrnd.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersunrnd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformCybersunAttorney
+  name: cybersun attorney suit
+  description: This durable Suit Jacket and Turtleneck Combo doubles as an Accounting suit, and includes an extra button. Take that, Nerd-otrasen!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersunattorney.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cybersunattorney.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformInterdyneChemist
+  name: interdyne chemist uniform
+  description: An impecable uniform, sign of a good chemist.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/interdyneuniform.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/interdyneuniform.rsi
