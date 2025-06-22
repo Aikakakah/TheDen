@@ -199,9 +199,20 @@
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/hop.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/hop.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/hop.rsi
+    sprite: Clothing/Uniforms/Jumpskirt/hop.rsi # DeltaV - resprite
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtHoPFormal
+  name: head of personnel's formal dress
+  description: A well-made dress with gold buttons and a red trim. Might as well look sharp when botany goes up in flames.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hopformaldress.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hopformaldress.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Added foldable Sprite
@@ -401,6 +412,17 @@
     sprite: Clothing/Uniforms/Jumpskirt/qm.rsi
 
 - type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtQMFormal
+  name: logistics officer's formal dress
+  description: Inspired by the logistics officers of military's past, the perfect outfit for supplying a formal occasion.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/qmformaldress.rsi # DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/qmformaldress.rsi # DeltaV
+
+- type: entity
   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtQMTurtleneck
   name: logistics officer's turtleneck # DeltaV - Logistics Department replacing Cargo
@@ -554,6 +576,39 @@
     sprite: Clothing/Uniforms/Jumpskirt/capformaldress.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/capformaldress.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCentcomAgent #DeltaV
+  name: CentComm agent's jumpskirt
+  description: A suitskirt worn by CentComm's legal team. Smells of burnt coffee.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/centcom_agent.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/centcom_agent.rsi #DeltaV
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCentcomOfficial #DeltaV
+  name: CentComm official's jumpskirt
+  description: It's a jumpskirt with a nice golden hem, worn by CentComm's officials.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/centcom_official.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/centcom_official.rsi #DeltaV
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCentcomOfficer #DeltaV
+  name: CentComm officer's jumpskirt
+  description: It's a jumpskirt worn by CentComm Officers.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi #DeltaV
 
 - type: entity
   parent: ClothingUniformSkirtBase
