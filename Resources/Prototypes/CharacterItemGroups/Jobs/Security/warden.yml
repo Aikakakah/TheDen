@@ -79,6 +79,14 @@
   maxItems: 1
   items:
     - type: loadout
+      id: LoadoutUniformJumpsuitWarden
+    - type: loadout
+      id: LoadoutUniformJumpskirtWarden
+    - type: loadout
+      id: LoadoutUniformJumpsuitWardenTurtle
+    - type: loadout
+      id: LoadoutUniformJumpskirtWardenTurtle
+    - type: loadout
       id: LoadoutUniformJumpsuitWardenBlue
     - type: loadout
       id: LoadoutUniformJumpsuitWardenGrey
@@ -86,7 +94,4 @@
       id: LoadoutUniformJumpskirtWardenBlue
     - type: loadout
       id: LoadoutUniformJumpskirtWardenGrey
-    - type: loadout
-      id: LoadoutUniformJumpsuitWarden
-    - type: loadout
-      id: LoadoutUniformJumpskirtWarden
+

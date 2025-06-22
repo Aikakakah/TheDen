@@ -287,16 +287,16 @@
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chemistry.rsi
 
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitChemShirt
-  name: formal chemistry suit
-  description: There's still some odd stains on this suit. Hm.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi
+# - type: entity
+#   parent: ClothingUniformBase
+#   id: ClothingUniformJumpsuitChemShirt
+#   name: formal chemistry suit
+#   description: There's still some odd stains on this suit. Hm.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -841,9 +841,9 @@
   description: A comfortable and tight-fitting turtleneck for those with the patience to reach the position of Warden. # DeltaV - improved description
   components:
   - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/warden_alt.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/warden_alt.rsi # DeltaV - resprite
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]

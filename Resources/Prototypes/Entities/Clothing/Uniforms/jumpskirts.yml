@@ -258,27 +258,27 @@
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_alt.rsi # DeltaV - resprite
 
-- type: entity
-  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Sprite
-  id: ClothingUniformJumpskirtHoSBlue
-  name: head of security's blue jumpskirt
-  description: A blue Station Security shirt with charcoal skirt. Features gold emblems and commander's epaulettes.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi # DeltaV - resprite
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi # DeltaV - resprite
+# - type: entity
+#   parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Sprite
+#   id: ClothingUniformJumpskirtHoSBlue
+#   name: head of security's blue jumpskirt
+#   description: A blue Station Security shirt with charcoal skirt. Features gold emblems and commander's epaulettes.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi # DeltaV - resprite
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi # DeltaV - resprite
 
-- type: entity
-  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Spri
-  id: ClothingUniformJumpskirtHoSGrey
-  name: head of security's grey jumpskirt
-  description: A grey Station Security shirt with charcoal skirt. Stands out with red highlights, gold emblems, and commander's epaulettes.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi # DeltaV - resprite
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi # DeltaV - resprite
+# - type: entity
+#   parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Spri
+#   id: ClothingUniformJumpskirtHoSGrey
+#   name: head of security's grey jumpskirt
+#   description: A grey Station Security shirt with charcoal skirt. Stands out with red highlights, gold emblems, and commander's epaulettes.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi # DeltaV - resprite
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -564,27 +564,27 @@
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_alt.rsi # DeltaV - resprite
 
-- type: entity
-  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
-  id: ClothingUniformJumpskirtWardenBlue
-  name: blue warden's jumpskirt
-  description: A cool blue shirt with ice-white markings and warden's epaulettes.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi # DeltaV - resprite
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi # DeltaV - resprite
+# - type: entity
+#   parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
+#   id: ClothingUniformJumpskirtWardenBlue
+#   name: blue warden's jumpskirt
+#   description: A cool blue shirt with ice-white markings and warden's epaulettes.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi # DeltaV - resprite
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi # DeltaV - resprite
 
-- type: entity
-  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
-  id: ClothingUniformJumpskirtWardenGrey
-  name: grey warden's jumpskirt
-  description: Charcoal skirt, a grey shirt, and white warden's markings and epaulettes.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi # DeltaV - resprite
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi # DeltaV - resprite
+# - type: entity
+#   parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
+#   id: ClothingUniformJumpskirtWardenGrey
+#   name: grey warden's jumpskirt
+#   description: Charcoal skirt, a grey shirt, and white warden's markings and epaulettes.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi # DeltaV - resprite
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -754,16 +754,16 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/janimaidmini.rsi
 
-- type: entity
-  parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtChiefJustice #DeltaV
-  name: chief justice's jumpskirt
-  description: A fancy black jumpskirt with a lace cravat to make it even more fancy. Proper judicial attire.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/cj.rsi #DeltaV
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/cj.rsi #DeltaV
+# - type: entity
+#   parent: ClothingUniformSkirtBase
+#   id: ClothingUniformJumpskirtChiefJustice #DeltaV
+#   name: chief justice's jumpskirt
+#   description: A fancy black jumpskirt with a lace cravat to make it even more fancy. Proper judicial attire.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/cj.rsi #DeltaV
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/cj.rsi #DeltaV
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -943,16 +943,16 @@
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpskirt/security_alt.rsi # DeltaV - resprite
 
-- type: entity
-  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
-  id: ClothingUniformJumpskirtSecBlue
-  name: blue security jumpskirt
-  description: A cool blue shirt over charcoal skirt, for the calm and collected security officer.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/security_blue.rsi # DeltaV - resprite
-  - type: Clothing
-    sprite: _DV/Clothing/Uniforms/Jumpskirt/security_blue.rsi # DeltaV - resprite
+# - type: entity
+#   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
+#   id: ClothingUniformJumpskirtSecBlue
+#   name: blue security jumpskirt
+#   description: A cool blue shirt over charcoal skirt, for the calm and collected security officer.
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/security_blue.rsi # DeltaV - resprite
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpskirt/security_blue.rsi # DeltaV - resprite
 
 - type: entity
   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
