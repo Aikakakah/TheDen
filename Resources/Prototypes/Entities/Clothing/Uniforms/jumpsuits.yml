@@ -113,7 +113,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi
 
 - type: entity
-  parent: [ ClothingUniformBase, ClothingUniformFoldableBaseImpstation ] # DeltaV - Cargo clothing expansion
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ] # DeltaV - Cargo clothing expansion
   id: ClothingUniformJumpsuitCargoTechPants
   name: cargo tech pants
   description: A crisp white collared shirt with a snappy pair of pants. There are leather knee pads for support.
@@ -439,9 +439,9 @@
   description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hos_alt.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hos_alt.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformBase
@@ -752,18 +752,10 @@
   name: security jumpsuit
   description: Charcoal trousers and a dull red shirt, the standard-issue uniform of the infamous Station Security Department. # DeltaV - improved description
   components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/security.rsi
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: inhand-left
-        color: "#C12D30"
-        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
-      right:
-      - state: inhand-right
-        color: "#C12D30"
-        sprite: Clothing/Uniforms/Jumpsuit/color.rsi
+    - type: Sprite
+      sprite: _DV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
+    - type: Clothing
+      sprite: _DV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
@@ -797,6 +789,28 @@
     sprite: _DV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpsuitWardenTurtle
+  name: warden's turtleneck # DeltaV - renamed to mirror other security uniforms
+  description: A comfortable and tight-fitting turtleneck for those with the patience to reach the position of Warden. # DeltaV - improved description
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpsuitSecTurtle
+  name: senior officer's turtleneck
+  description: A comfortable and tight-fitting turtleneck for those with the resolve to reach the position of Senior Officer.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/security_alt.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/security_alt.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1416,12 +1430,12 @@
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSeniorOfficer
   name: senior officer jumpsuit
-  description: A sign of skill and prestige within the security department.
+  description: A tight-fitting tactical jumpsuit, made of light and breathable yet durable material. Can be worn all year round. # DeltaV - improved description
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/senior_officer.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/senior_officer.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformBase
