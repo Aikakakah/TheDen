@@ -58,6 +58,16 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtSalvageSpecialist # DeltaV
+  name: salvage specialist's jumpskirt
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/explorer.rsi # DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/explorer.rsi # DeltaV
+
+- type: entity
+  parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtChiefEngineer
   name: chief engineer's jumpskirt
   description: It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer.
@@ -112,6 +122,17 @@
     sprite: Clothing/Uniforms/Jumpskirt/chemistry.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/chemistry.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtChemShirt #DeltaV
+  name: formal chemistry suitskirt
+  description: There's still some odd stains on this suitskirt. Hm.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/chemsuitskirt.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/chemsuitskirt.rsi #DeltaV
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -281,6 +302,16 @@
     sprite: Clothing/Uniforms/Jumpskirt/hydro.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/hydro.rsi
+
+- type: entity
+  parent: ClothingUniformOveralls #DeltaV
+  id: ClothingUniformJumpskirtOveralls #DeltaV
+  name: overalls jumpskirt
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/overalls.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/overalls.rsi #DeltaV
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -457,6 +488,17 @@
     sprite: Clothing/Uniforms/Jumpskirt/scientist.rsi
 
 - type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtScientistFormal #DeltaV
+  name: scientist's formal jumpskirt
+  description: A uniform for sophisticated scientists, best worn with its matching tie.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/scientist_formal.rsi #DeltaV
+
+- type: entity
   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtRoboticist
   name: roboticist jumpskirt
@@ -466,6 +508,17 @@
     sprite: Clothing/Uniforms/Jumpskirt/roboticist.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/roboticist.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtRoboNeuroticist #DeltaV
+  name: robo-neuroticist's jumpskirt
+  description: A jumpskirt fit with dozens of cybernetic gadgets.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/roboneuroticistpurple.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/roboneuroticistpurple.rsi #DeltaV
 
 - type: entity
   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
@@ -670,6 +723,16 @@
     sprite: Clothing/Uniforms/Jumpskirt/atmosf.rsi
 
 - type: entity
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpskirtAtmosCasual #DeltaV
+  name: atmospheric technician's casual jumpskirt
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/atmos_casual.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/atmos_casual.rsi #DeltaV
+
+- type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtJanimaid
   name: janitorial maid uniform
@@ -690,6 +753,28 @@
     sprite: Clothing/Uniforms/Jumpskirt/janimaidmini.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/janimaidmini.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtChiefJustice #DeltaV
+  name: chief justice's jumpskirt
+  description: A fancy black jumpskirt with a lace cravat to make it even more fancy. Proper judicial attire.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/cj.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/cj.rsi #DeltaV
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtCJFormal #DeltaV
+  name: chief justice's formal dress
+  description: A fancy double-breasted dress with golden accoutrements. Sharp and authoritative.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/cjformaldress.rsi #DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/cjformaldress.rsi #DeltaV
 
 - type: entity
   parent: ClothingUniformSkirtBase
