@@ -113,6 +113,28 @@
     sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi
 
 - type: entity
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBaseImpstation ] # DeltaV - Cargo clothing expansion
+  id: ClothingUniformJumpsuitCargoTechPants
+  name: cargo tech pants
+  description: A crisp white collared shirt with a snappy pair of pants. There are leather knee pads for support.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cargotechpants.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cargotechpants.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargoTechOveralls  # DeltaV - Cargo clothing expansion
+  name: cargo tech overalls
+  description: A sturdy pair of overalls with leather straps and chartreuse buckles. Helpful for lifting heavy loads.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cargotechoveralls.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/cargotechoveralls.rsi
+
+- type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSalvageSpecialist
   name: salvage specialist's jumpsuit
