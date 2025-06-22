@@ -211,13 +211,21 @@
   maxItems: 1
   items:
     - type: loadout
+      id: LoadoutSecurityUniformJumpsuit
+    - type: loadout
+      id: LoadoutSecurityUniformJumpskirt
+    - type: loadout
       id: LoadoutSecurityUniformJumpsuitBlue
+    - type: loadout
+      id: LoadoutSecurityUniformJumpskirtBlue
     - type: loadout
       id: LoadoutSecurityUniformJumpsuitGrey
     - type: loadout
       id: LoadoutSecurityUniformJumpskirtGrey
     - type: loadout
-      id: LoadoutSecurityUniformJumpskirtBlue
+      id: LoadoutSecurityUniformJumpsuitTurtle
+    - type: loadout
+      id: LoadoutSecurityUniformJumpskirtTurtle
     - type: loadout
       id: LoadoutSecurityUniformJumpsuitSeniorTrooper
     - type: loadout
@@ -228,7 +236,4 @@
       id: LoadoutSecurityUniformEnvirosuitBlue
     - type: loadout
       id: LoadoutSecurityUniformEnvirosuitGrey
-    - type: loadout
-      id: LoadoutSecurityUniformJumpsuit
-    - type: loadout
-      id: LoadoutSecurityUniformJumpskirt
+

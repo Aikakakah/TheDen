@@ -1134,6 +1134,34 @@
     - ClothingUniformJumpskirtSecGrey
 
 - type: loadout
+  id: LoadoutSecurityUniformJumpsuitTurtle
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingUniformJumpsuitSecTurtle
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpskirtTurtle
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingUniformJumpskirtSecTurtle
+
+- type: loadout
   id: LoadoutSecurityUniformJumpskirtBlue
   category: JobsSecurityAUncategorized
   cost: 0

@@ -131,3 +131,17 @@
         - Botanist
   items:
     - ClothingUniformJumpsuitHydroponicsOrion
+
+- type: loadout
+  id: ClothingUniformBotanistUniformOverallSkirt
+  category: JobsServiceBotanist
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBotanistUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Botanist
+  items:
+    - ClothingUniformOverallSkirt

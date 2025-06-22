@@ -33,3 +33,5 @@
       id: LoadoutClothingUniformJumpsuitChiefJusticeFormal
     - type: loadout
       id: LoadoutClothingUniformJumpsuitChiefJusticeWhite
+    - type: loadout
+      id: LoadoutClothingUniformJumpskirtChiefJusticeFormal

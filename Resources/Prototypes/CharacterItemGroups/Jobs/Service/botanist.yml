@@ -74,6 +74,8 @@
     - type: loadout
       id: LoadoutServiceBotanistUniformOveralls
     - type: loadout
+      id: ClothingUniformBotanistUniformOverallSkirt
+    - type: loadout
       id: LoadoutServiceJumpsuitHydroponicsNt
     - type: loadout
       id: LoadoutServiceJumpsuitHydroponicsIdris

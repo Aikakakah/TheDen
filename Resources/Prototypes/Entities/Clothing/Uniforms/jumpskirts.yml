@@ -58,8 +58,8 @@
 
 - type: entity
   parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtSalvageSpecialist # DeltaV
-  name: salvage specialist's jumpskirt
+  id: ClothingUniformJumpskirtExplorer # DeltaV
+  name: explorer's jumpskirt
   components:
   - type: Sprite
     sprite: _DV/Clothing/Uniforms/Jumpskirt/explorer.rsi # DeltaV
@@ -220,9 +220,9 @@
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/hop.rsi # DeltaV - resprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hop.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/hop.rsi # DeltaV - resprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hop.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -304,8 +304,8 @@
     sprite: Clothing/Uniforms/Jumpskirt/hydro.rsi
 
 - type: entity
-  parent: ClothingUniformOveralls #DeltaV
-  id: ClothingUniformJumpskirtOveralls #DeltaV
+  parent: ClothingUniformSkirtBase #DeltaV
+  id: ClothingUniformOverallSkirt #DeltaV
   name: overalls jumpskirt
   components:
   - type: Sprite
@@ -556,7 +556,7 @@
 - type: entity
   parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtWardenTurtle
-  name: warden's turtleneck
+  name: warden's turtleneck skirt
   description: A comfortable and tight-fitting turtleneck for those with the patience to reach the position of Warden.
   components:
   - type: Sprite

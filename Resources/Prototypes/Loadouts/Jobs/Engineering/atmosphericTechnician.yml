@@ -385,3 +385,17 @@
   items:
     - ClothingUniformJumpskirtAtmos
 
+- type: loadout
+  id: LoadoutAtmosUniformSkirtCasual
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - AtmosphericTechnician
+  items:
+    - ClothingUniformJumpskirtAtmosCasual
+

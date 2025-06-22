@@ -109,29 +109,29 @@
   maxItems: 1
   items:
     - type: loadout
+      id: LoadoutCommandHOSJumpsuit
+    - type: loadout
+      id: LoadoutCommandHOSJumpskirt
+    - type: loadout
+      id: LoadoutCommandHOSJumpsuitBlue
+    - type: loadout
       id: LoadoutUniformJumpskirtHoSBlue
+    - type: loadout
+      id: LoadoutCommandHOSJumpsuitGrey
     - type: loadout
       id: LoadoutUniformJumpskirtHoSGrey
     - type: loadout
       id: LoadoutCommandHOSJumpsuitAlt
     - type: loadout
-      id: LoadoutCommandHOSJumpsuitBlue
-    - type: loadout
-      id: LoadoutCommandHOSJumpsuitGrey
+      id: LoadoutCommandHOSJumpskirtAlt
     - type: loadout
       id: LoadoutCommandHOSJumpsuitParade
     - type: loadout
-      id: LoadoutCommandHOSJumpsuitFormal
-    - type: loadout
-      id: LoadoutCommandHOSJumpskirtAlt
-    - type: loadout
       id: LoadoutCommandHOSJumpskirtParade
     - type: loadout
+      id: LoadoutCommandHOSJumpsuitFormal
+    - type: loadout
       id: LoadoutCommandHOSJumpskirtFormal
-    - type: loadout
-      id: LoadoutCommandHOSJumpsuit
-    - type: loadout
-      id: LoadoutCommandHOSJumpskirt
 
 - type: characterItemGroup
   id: LoadoutHeadOfSecurityTrinkets

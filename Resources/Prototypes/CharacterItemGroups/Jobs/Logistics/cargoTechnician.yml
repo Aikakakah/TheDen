@@ -79,3 +79,10 @@
       id: LoadoutCargoTechnicianUniformSkirtLight
     - type: loadout
       id: LoadoutCargoTechnicianUniformSkirtDark
+    - type: loadout
+      id: LoadoutCargoTechnicianUniformSuitCargoTechPants
+    - type: loadout
+      id: LoadoutCargoTechnicianUniformSuitCargoTechRomper
+    - type: loadout
+      id: LoadoutCargoTechnicianUniformSuitCargoTechOveralls
+

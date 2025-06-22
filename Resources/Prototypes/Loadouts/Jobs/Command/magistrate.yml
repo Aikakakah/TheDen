@@ -140,3 +140,18 @@
         - Magistrate
   items:
     - ClothingUniformJumpsuitChiefJusticeWhite
+
+- type: loadout
+  id: LoadoutClothingUniformJumpskirtChiefJusticeFormal
+  category: JobsCommandMagistrate
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+        - Magistrate
+  items:
+    - ClothingUniformJumpskirtCJFormal

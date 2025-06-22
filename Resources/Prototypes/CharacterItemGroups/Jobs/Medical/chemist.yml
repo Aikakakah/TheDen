@@ -113,3 +113,5 @@
       id: LoadoutMedicalUniformJumpsuitChemistry
     - type: loadout
       id: LoadoutMedicalUniformJumpskirtChemistry
+    - type: loadout
+      id: LoadoutMedicalUniformJumpskirtChemShirt

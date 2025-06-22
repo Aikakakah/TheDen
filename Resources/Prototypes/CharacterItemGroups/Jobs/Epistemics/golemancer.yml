@@ -87,3 +87,9 @@
       id: LoadoutScienceUniformJumpskirtRoboticist
     - type: loadout
       id: LoadoutScienceUniformJumpsuitRoboticist
+    - type: loadout
+      id: LoadoutScienceUniformJumpsuitRoboNeuroticist
+    - type: loadout
+      id: LoadoutScienceUniformJumpskirtRoboNeuroticist
+    - type: loadout
+      id: LoadoutScienceUniformJumpsuitFormal

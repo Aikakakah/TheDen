@@ -354,3 +354,18 @@
          - Chemist
   items:
     - ClothingUniformJumpskirtChemistry
+
+- type: loadout
+  id: LoadoutMedicalUniformJumpskirtChemShirt
+  category: JobsMedicalChemist
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistUniforms
+    - !type:CharacterJobRequirement
+       jobs:
+         - Chemist
+  items:
+    - ClothingUniformJumpskirtChemShirt
+

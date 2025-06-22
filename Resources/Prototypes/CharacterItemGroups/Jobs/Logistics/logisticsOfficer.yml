@@ -81,3 +81,7 @@
       id: LoadoutCommandQMUniformTurtleneckSkirt
     - type: loadout
       id: LoadoutCommandQMUniformForeman
+    - type: loadout
+      id: LoadoutCommandQMUniformSkirtFormal
+    - type: loadout
+      id: LoadoutCommandQMUniformSuitFormal

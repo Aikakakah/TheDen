@@ -154,6 +154,16 @@
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
 
+# - type: entity
+#   parent: ClothingUniformBase
+#   id: ClothingUniformJumpsuitExplorer # DeltaV
+#   name: explorer's jumpsuit
+#   components:
+#   - type: Sprite
+#     sprite: _DV/Clothing/Uniforms/Jumpsuit/explorer.rsi # DeltaV
+#   - type: Clothing
+#     sprite: _DV/Clothing/Uniforms/Jumpsuit/explorer.rsi # DeltaV
+
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitChiefEngineer
@@ -435,13 +445,15 @@
     sprite: Clothing/Uniforms/Jumpsuit/engineering_hazard.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase] #DeltaV Foldable
   id: ClothingUniformJumpsuitHoP
   name: head of personnel's jumpsuit
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hop.rsi #DeltaV Foldable
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/hop.rsi #DeltaV Foldable
 
 - type: entity
   parent: ClothingUniformBase

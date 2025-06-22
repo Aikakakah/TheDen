@@ -232,6 +232,8 @@
     - type: loadout
       id: LoadoutUniformJumpskirtDressClub
     - type: loadout
+      id: LoadoutUniformJumpskirtDressClub
+    - type: loadout
       id: LoadoutUniformJumpskirtDressCoveter
     - type: loadout
       id: LoadoutUniformJumpskirtDressFlamenco

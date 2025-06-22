@@ -77,3 +77,45 @@
         - CargoTechnician
   items:
     - ClothingUniformJumpskirtCargo
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformSuitCargoTechPants
+  category: JobsLogisticsCargoTechnician
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - CargoTechnician
+  items:
+    - ClothingUniformJumpsuitCargoTechPants
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformSuitCargoTechRomper
+  category: JobsLogisticsCargoTechnician
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - CargoTechnician
+  items:
+    - ClothingUniformJumpskirtCargoTechRomper
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformSuitCargoTechOveralls
+  category: JobsLogisticsCargoTechnician
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - CargoTechnician
+  items:
+    - ClothingUniformJumpsuitCargoTechOveralls

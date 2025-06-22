@@ -411,3 +411,31 @@
         - HeadOfPersonnel
   items:
     - ClothingUniformJumpskirtHoPMess
+
+- type: loadout
+  id: LoadoutCommandHOPJumpsuitFormal
+  category: JobsCommandHeadOfPersonnel
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfPersonnel
+  items:
+    - ClothingUniformJumpsuitHoPFormal
+
+- type: loadout
+  id: LoadoutCommandHOPJumpskirtFormal
+  category: JobsCommandHeadOfPersonnel
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfPersonnel
+  items:
+    - ClothingUniformJumpskirtHoPFormal

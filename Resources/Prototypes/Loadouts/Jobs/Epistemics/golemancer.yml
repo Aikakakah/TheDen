@@ -143,3 +143,45 @@
         - Roboticist
   items:
     - ClothingUniformJumpsuitRoboticist
+
+- type: loadout
+  id: LoadoutScienceUniformJumpsuitRoboNeuroticist
+  category: JobsEpistemicsGolemancer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Roboticist
+  items:
+    - ClothingUniformJumpsuitRoboNeuroticist
+
+- type: loadout
+  id: LoadoutScienceUniformJumpskirtRoboNeuroticist
+  category: JobsEpistemicsGolemancer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Roboticist
+  items:
+    - ClothingUniformJumpskirtRoboNeuroticist
+
+- type: loadout
+  id: LoadoutScienceUniformJumpsuitFormal
+  category: JobsEpistemicsGolemancer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Roboticist
+  items:
+    - ClothingUniformJumpskirtScientistFormal

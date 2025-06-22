@@ -112,3 +112,7 @@
   items:
     - type: loadout
       id: LoadoutSalvageSpecialistUniformSuit
+    - type: loadout
+      id: LoadoutExplorerUniformSuit
+    - type: loadout
+      id: LoadoutExplorerUniformSkirt
