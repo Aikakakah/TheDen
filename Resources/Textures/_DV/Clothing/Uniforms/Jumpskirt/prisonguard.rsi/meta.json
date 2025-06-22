@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "CC0-1.0",
-    "copyright": "Original work by TJohnson.",
+    "license": "CC-BY-SA-4.0",
+    "copyright": "Hyenh, motified by HTMLSystem",
     "size": {
         "x": 32,
         "y": 32
@@ -9,10 +9,6 @@
     "states": [
         {
             "name": "icon"
-        },
-        {
-            "name": "equipped-INNERCLOTHING",
-            "directions": 4
         },
         {
             "name": "inhand-left",
@@ -23,7 +19,7 @@
             "directions": 4
         },
         {
-            "name": "rolled-equipped-INNERCLOTHING",
+            "name": "equipped-INNERCLOTHING",
             "directions": 4
         }
     ]

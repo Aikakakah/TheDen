@@ -204,7 +204,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/hop.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Added foldable Sprite
   id: ClothingUniformJumpskirtHoS
   name: head of security's jumpskirt
   description: A standard Station Security uniform, adorned with gold emblems and commander's epaulettes.
@@ -215,16 +215,38 @@
     sprite: _DV/Clothing/Uniforms/Jumpskirt/hos.rsi # DeltaV - resprite
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Sprite
   id: ClothingUniformJumpskirtHoSAlt
   name: head of security's turtleneck
   description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
   suffix: Jumpskirt # TheDen
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/hos_alt.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_alt.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/hos_alt.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_alt.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Sprite
+  id: ClothingUniformJumpskirtHoSBlue
+  name: head of security's blue jumpskirt
+  description: A blue Station Security shirt with charcoal skirt. Features gold emblems and commander's epaulettes.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_blue.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase] # Added foldable Spri
+  id: ClothingUniformJumpskirtHoSGrey
+  name: head of security's grey jumpskirt
+  description: A grey Station Security shirt with charcoal skirt. Stands out with red highlights, gold emblems, and commander's epaulettes.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/hos_grey.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -307,7 +329,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/paramedic.rsi
 
 - type: entity
-  parent: [ClothingUniformBase, ClothingUniformRollableBase] # Added Rollable Sprite
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Added Rollable Sprite
   id: ClothingUniformJumpskirtBrigmedic
   name: corpsman jumpskirt # DeltaV - renamed brigmedic to corpsman
   description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
@@ -316,6 +338,16 @@
     sprite: _DV/Clothing/Uniforms/Jumpskirt/brigmedic.rsi # DeltaV - resprite
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpskirt/brigmedic.rsi # DeltaV - resprite
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtPrisonGuard
+  name: prison guard's jumpskirt
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/prisonguard.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/prisonguard.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformBase
@@ -414,7 +446,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/roboticist.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtSec
   name: security jumpskirt
   description: A charcoal skirt and a dull red shirt, the standard-issue uniform of the infamous Station Security Department. # DeltaV - improved description
@@ -425,7 +457,18 @@
     sprite: _DV/Clothing/Uniforms/Jumpskirt/security.rsi # DeltaV - resprite
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtSecFormal # DeltaV
+  name: security formal dress
+  description: A ceremonial piece of Station Security kit, for special occasions of any kind.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/secformalskirt.rsi # DeltaV
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/secformalskirt.rsi # DeltaV
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpskirtWarden
   name: warden's jumpskirt # DeltaV - renamed to mirror other security uniforms
   description: Red shirt on a charcoal skirt, with white markings and epaulettes that denote a warden's rank. # DeltaV - improved description
@@ -434,6 +477,39 @@
     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden.rsi # DeltaV - resprite
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpskirt/warden.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpskirtWardenTurtle
+  name: warden's turtleneck
+  description: A comfortable and tight-fitting turtleneck for those with the patience to reach the position of Warden.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_alt.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_alt.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpskirtWardenBlue
+  name: blue warden's jumpskirt
+  description: A cool blue shirt with ice-white markings and warden's epaulettes.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_blue.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpskirtWardenGrey
+  name: grey warden's jumpskirt
+  description: Charcoal skirt, a grey shirt, and white warden's markings and epaulettes.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/warden_grey.rsi # DeltaV - resprite
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -706,18 +782,40 @@
     sprite: Clothing/Uniforms/Jumpskirt/senior_physician.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtSeniorOfficer
   name: senior officer jumpskirt
   description: A sign of skill and prestige within the security department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpskirt/senior_officer.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/senior_officer.rsi # DeltaV - resprite
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpskirt/senior_officer.rsi
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/senior_officer.rsi # DeltaV - resprite
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpskirtSecTurtle
+  name: senior officer's turtleneck
+  description: A comfortable and tight-fitting turtleneck for those with the resolve to reach the position of Senior Officer.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/security_alt.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/security_alt.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpskirtSecBlue
+  name: blue security jumpskirt
+  description: A cool blue shirt over charcoal skirt, for the calm and collected security officer.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/security_blue.rsi # DeltaV - resprite
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpskirt/security_blue.rsi # DeltaV - resprite
+
+- type: entity
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtSecGrey
   name: grey security jumpskirt
   description: A light grey shirt with bright red highlights, for dedicated and responsive security officers. # DeltaV - improved description
