@@ -123,3 +123,7 @@
       id: LoadoutCommandHOPJumpsuitMess
     - type: loadout
       id: LoadoutCommandHOPJumpskirtMess
+    - type: loadout
+      id: LoadoutCommandHOPJumpsuitFormal
+    - type: loadout
+      id: LoadoutCommandHOPJumpskirtFormal
