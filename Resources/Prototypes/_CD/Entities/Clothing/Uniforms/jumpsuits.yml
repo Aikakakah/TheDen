@@ -10,7 +10,7 @@
 - type: entity
   parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpsuitCargoLight
-  name: cargo tech jumpsuit
+  name: light cargo tech jumpsuit
   description: A sturdy jumpsuit, issued to members of the Cargo department.
   suffix: light
   components:
@@ -22,7 +22,7 @@
 - type: entity
   parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpsuitCargoDark
-  name: cargo tech jumpsuit
+  name: dark cargo tech jumpsuit
   suffix: dark
   description: A sturdy jumpsuit, issued to members of the Cargo department.
   components:
@@ -31,7 +31,29 @@
   - type: Clothing
     sprite: _CD/Clothing/Uniforms/Jumpsuit/cargotech_dark.rsi
 
-# QM foreman uniform
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCargoOveralls
+  name: cargo overalls
+  description: A set of sturdy tan overalls worn by cargo techs wanting more coverage.
+  components:
+  - type: Sprite
+    sprite: _CD/Clothing/Uniforms/Jumpsuit/cargo_overalls.rsi
+  - type: Clothing
+    sprite: _CD/Clothing/Uniforms/Jumpsuit/cargo_overalls.rsi
+
+- type: entity
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ] # CD foldable
+  id: ClothingUniformJumpsuitCargoPants
+  name: cargo cargoes
+  description: A pair of khaki cargo pants, for cargo. Comes with a grey tee.
+  components:
+  - type: Sprite
+    sprite: _CD/Clothing/Uniforms/Jumpsuit/Casual/cargo_casual.rsi
+  - type: Clothing
+    sprite: _CD/Clothing/Uniforms/Jumpsuit/Casual/cargo_casual.rsi
+
+# QM
 
 - type: entity
   parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
@@ -43,6 +65,17 @@
     sprite: _CD/Clothing/Uniforms/Jumpsuit/foreman.rsi
   - type: Clothing
     sprite: _CD/Clothing/Uniforms/Jumpsuit/foreman.rsi
+
+- type: entity
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpsuitQMTurtleneckDark # CD - Added "dark" for variations
+  name: logistics officer's dark turtleneck
+  description: A sharp turtleneck made for the hardy work environment of supply.
+  components:
+    - type: Sprite
+      sprite: _CD/Clothing/Uniforms/Jumpsuit/qmturtle.rsi # CD drip 2
+    - type: Clothing
+      sprite: _CD/Clothing/Uniforms/Jumpsuit/qmturtle.rsi # CD drip 2
 
 # Salvage Operator
 

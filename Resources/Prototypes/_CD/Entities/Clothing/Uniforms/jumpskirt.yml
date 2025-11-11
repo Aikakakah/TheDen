@@ -9,7 +9,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtCargoLight
-  name: cargo tech jumpskirt
+  name: light cargo tech jumpskirt
   description: A sturdy jumpskirt, issued to members of the Cargo department.
   suffix: light
   components:
@@ -21,7 +21,7 @@
 - type: entity
   parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtCargoDark
-  name: cargo tech jumpskirt
+  name: dark cargo tech jumpskirt
   description: A sturdy jumpskirt, issued to members of the Cargo department.
   suffix: dark
   components:
@@ -29,3 +29,15 @@
     sprite: _CD/Clothing/Uniforms/Jumpskirt/cargotech_dark.rsi
   - type: Clothing
     sprite: _CD/Clothing/Uniforms/Jumpskirt/cargotech_dark.rsi
+
+  # Logistics Officer
+- type: entity
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpskirtLOTurtleneck # Changed QM to LO for variants
+  name: logistics officer's turtleneck
+  description: A sharp turtleneck made for the hardy work environment of supply.
+  components:
+    - type: Sprite
+      sprite: _CD/Clothing/Uniforms/Jumpskirt/qmturtleskirt.rsi # CD drip 2
+    - type: Clothing
+      sprite: _CD/Clothing/Uniforms/Jumpskirt/qmturtleskirt.rsi # CD drip 2
