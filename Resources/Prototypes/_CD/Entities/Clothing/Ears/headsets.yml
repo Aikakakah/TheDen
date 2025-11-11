@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetLongRange
+  name: mail carrier's headset #Den - renamed from long-range headset
+  description: A headset used by mail carriers. #Den
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCargo
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: _CD/Clothing/Ears/Headsets/long-range.rsi
+  - type: Clothing
+    sprite: _CD/Clothing/Ears/Headsets/long-range.rsi
