@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingOuterWinterCoatToggleable
+  id: ClothingOuterWinterCargo
+  name: logistics winter coat
+  components:
+  - type: Sprite
+    sprite: _CD/Clothing/OuterClothing/WinterCoats/cargo_coat.rsi # CD drip 2
+    layers:
+    - state: CARGO-icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: CARGO-inhand-left
+      right:
+      - state: CARGO-inhand-right
+  - type: Clothing
+    sprite: _CD/Clothing/OuterClothing/WinterCoats/cargo_coat.rsi # CD drip 2
+    clothingVisuals:
+      outerClothing:
+      - state: CARGO-equipped-OUTERCLOTHING
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodWinterCargo
