@@ -111,7 +111,7 @@
   - type: FingerprintMask
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsGlovesBoxingBase #TheDen
   id: ClothingHandsSexCompGlovesRed
   name: red sex competition gloves
   description: It looks like it should be part of a competition.
@@ -126,7 +126,7 @@
   - type: FingerprintMask
 
 - type: entity
-  parent: ClothingHandsBase
+  parent: ClothingHandsGlovesBoxingBase #TheDen
   id: ClothingHandsSexCompGlovesBlue
   name: blue sex competition gloves
   description: It looks like it should be part of a competition.
